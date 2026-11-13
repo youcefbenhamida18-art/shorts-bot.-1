@@ -1,0 +1,17 @@
+{
+  "name": "viral-shorts-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Generates 9-second funny cat/joke Shorts every morning and schedules them at peak viral hours.",
+  "scripts": {
+    "start": "node src/main.js",
+    "dry": "DRY_RUN=1 node src/main.js"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.65"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
